@@ -9,7 +9,7 @@ import Panel from "./Panel";
 import UserBlock from "./UserBlock";
 import { NavProps } from "./types";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
-import Avatar from "./Avatar";
+// import Avatar from "./Avatar";
 
 const Wrapper = styled.div`
   position: relative;
@@ -124,7 +124,8 @@ const Menu: React.FC<NavProps> = ({
         />
         <Flex>
           <UserBlock account={account} login={login} logout={logout} />
-          {profile && <Avatar profile={profile} />}
+          Hello
+          {/* profile && <Avatar profile={profile} /> */}
         </Flex>
       </StyledNav>
       <BodyWrapper>

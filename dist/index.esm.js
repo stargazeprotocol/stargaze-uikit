@@ -2227,56 +2227,8 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
+                label: "Main Channel",
                 href: "https://t.me/stargazeprotocol",
-            },
-            {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/StargazeProtocolIndonesia",
-            },
-            {
-                label: "中文",
-                href: "https://t.me/StargazeProtocol_CN",
-            },
-            {
-                label: "Tiếng Việt",
-                href: "https://t.me/StargazeProtocolVN",
-            },
-            {
-                label: "Italiano",
-                href: "https://t.me/stargazeprotocol_ita",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/stargazeprotocol_ru",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/stargazeprotocolturkiye",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/StargazeProtocolPortuguese",
-            },
-            {
-                label: "Español",
-                href: "https://t.me/StargazeProtocolEs",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/stargazeprotocoljp",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/stargazeprotocolfr",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/StargazeProtocolAnn",
-            },
-            {
-                label: "Whale Alert",
-                href: "https://t.me/StargazeProtocolWhales",
             },
         ],
     },

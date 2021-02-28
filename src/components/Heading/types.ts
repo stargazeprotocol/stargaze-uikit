@@ -14,10 +14,15 @@ export const sizes = {
   XXL: "xxl",
 } as const;
 
-export type Tags = typeof tags[keyof typeof tags];
-export type Sizes = typeof sizes[keyof typeof sizes];
-
+export declare const positions:{
+  readonly TP: "top";
+  readonly BTM: "bottom";
+};
+export declare type Tags = typeof tags[keyof typeof tags];
+export declare type Sizes = typeof sizes[keyof typeof sizes];
+export declare type Positions = typeof positions[keyof typeof positions];
 export interface HeadingProps {
   as?: Tags;
   size?: Sizes;
+  pos?: Positions;
 }

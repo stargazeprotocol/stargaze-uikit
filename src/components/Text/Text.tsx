@@ -1,7 +1,7 @@
 import styled, { DefaultTheme } from "styled-components";
 import { space, typography } from "styled-system";
 import getThemeValue from "../../util/getThemeValue";
-import { TextProps } from "./types";
+import { positions, TextProps } from "./types";
 
 interface ThemedProps extends TextProps {
   theme: DefaultTheme;
@@ -15,6 +15,15 @@ const getFontSize = ({ fontSize, small }: TextProps) => {
   return small ? "14px" : fontSize || "16px";
 };
 
+const pozition = {
+  [positions.TP]: {
+    position: "position: absolute; top: 10px"
+  },
+  [positions.BTM]: {
+    position: "position: absolute; bottom: 10px"
+  }
+};
+
 const Text = styled.div<TextProps>`
   color: ${getColor};
   font-size: ${getFontSize};
@@ -23,6 +32,7 @@ const Text = styled.div<TextProps>`
   ${({ textTransform }) => textTransform && `text-transform: ${textTransform};`}
   ${space}
   ${typography}
+  ${({pos}) => pos ? pozition[pos||positions.BTM].position : ""};
 `;
 
 Text.defaultProps = {

@@ -1,22 +1,23 @@
-# 🥞 Pancake UIkit
+# Stargazer UIkit
 
-[![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
+[![Version](https://img.shields.io/npm/v/@stargazeprotocol/uikit)](https://www.npmjs.com/package/@stargazeprotocol/uikit) [![Size](https://img.shields.io/bundlephobia/min/@stargazeprotocol/uikit)](https://www.npmjs.com/package/@stargazeprotocol/uikit)
 
-Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+Stargazer UIkit is a set of React components and hooks used to build pages for Stargazer Orion. It also contains a theme file for dark and light mode.
+It is based heavily on the work of [Pancake UIkit](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
 ## Install
 
-`yarn add @pancakeswap-libs/uikit`
+`yarn add @stargazeprotocol/uikit`
 
 ## Setup
 
 ### Theme
 
-Before using Pancake UIkit, you need to provide the theme file to styled-component.
+Before using this UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
+import { light, dark } from '@stargazeprotocol/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +27,7 @@ import { light, dark } from '@pancakeswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@pancakeswap-libs/uikit'
+import { ResetCSS } from '@stargazeprotocol/uikit'
 ...
 <ResetCSS />
 ```

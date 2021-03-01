@@ -12,8 +12,7 @@ export declare const sizes: {
     readonly XL: "xl";
     readonly XXL: "xxl";
 };
-
-export declare const positions:{
+export declare const positions: {
     readonly TP: "top";
     readonly BTM: "bottom";
 };

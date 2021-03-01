@@ -14,10 +14,10 @@ export const sizes = {
   XXL: "xxl",
 } as const;
 
-export declare const positions:{
-  readonly TP: "top";
-  readonly BTM: "bottom";
-};
+export const positions = {
+  TP: "top",
+  BTM: "bottom"
+} as const;
 export declare type Tags = typeof tags[keyof typeof tags];
 export declare type Sizes = typeof sizes[keyof typeof sizes];
 export declare type Positions = typeof positions[keyof typeof positions];
